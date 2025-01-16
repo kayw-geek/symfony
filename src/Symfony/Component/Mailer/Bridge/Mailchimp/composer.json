@@ -17,14 +17,11 @@
     ],
     "require": {
         "php": ">=8.2",
-        "symfony/mailer": "^7.2"
+        "symfony/mailer": "^6.4|^7.0",
+        "symfony/http-client-contracts": "^3.5.2"
     },
     "require-dev": {
-        "symfony/http-client": "^6.4|^7.0",
-        "symfony/webhook": "^7.2"
-    },
-    "conflict": {
-        "symfony/webhook": "<7.2"
+        "symfony/http-client": "^6.4|^7.0"
     },
     "autoload": {
         "psr-4": { "Symfony\\Component\\Mailer\\Bridge\\Mailchimp\\": "" },
